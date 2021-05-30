@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body style="background-color: lime;">
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>Lorem ipsum dolor sit amet consectetur.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias possimus architecto deserunt, eveniet autem veritatis voluptatibus aspernatur repellat impedit numquam?</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <!-- <img src="/w3images/team1.jpg" alt="Jane" style="width:100%"> -->
+      <div class="container">
+        <h2>Chanda Harshita</h2><img src="Screenshot(261).jpeg" style="border-radius: 100%; height: 130px ; width: 150px; margin: -50px 200px;">
+        <p class="title">CEO & Founder</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, laudantium?.</p>
+        <p> Email Id-chanda.harshita2000@gmail.com</p>
+        <p> mob. No.-9660740938</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <!-- <img src="/w3images/team2.jpg" alt="Mike" style="width:100%"/> -->
+      <div class="container">
+        <h2>Pravesh kumar</h2><img src="Picture 14009 (2).jpg" style="border-radius: 50%; height: 130px ; width: 150px; margin: -50px 200px;">
+        <p class="title">Manager & Art Director</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, nam?</p>
+        <p> Email Id-praveshkumar.my255@gmail.com</p>
+        <p> mob. No.-8126853262</p>
+        <p><button class="button">Contact</button></p>
+       
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <!-- <img src="/w3images/team3.jpg" alt="John" style="width:100%"> -->
+      <div class="container">
+        <h2>Goutam Kumar</h2><img src="Screenshot (259).png" style="border-radius: 50%; height: 130px ; width: 150px; margin: -50px 200px;">
+        <p class="title">Designer</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, veritatis..</p>
+        <p> Email Id-krgauti678@gmail.com</p>
+        <p> mob. No.-9717618577</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

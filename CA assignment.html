@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Booking Management System</title>
+<style>
+
+nav {
+        text-align: center;
+      }
+      .menu {
+        display: inline-block;
+        
+      }
+      .menu>li {
+        float: left;
+       
+        width: 170px;
+        height: 30px;
+        line-height: 30px;
+        background: rgba(0, 0, 0, 0.7);
+        cursor: pointer;
+        font-size: 20px;
+        text-decoration: none;
+      }
+      .sub-menu {
+        transform: scale(0);
+        transform-origin: top center;
+        transition: all 300ms ease-in-out;
+        text-decoration: none;
+      }
+      .sub-menu li {
+        font-size: 14px;
+        background: rgba(0, 0, 0, 0.8);
+        padding: 8px 0;
+        color: white;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        transform: scale(0);
+        transform-origin: top center;
+        transition: all 300ms ease-in-out;
+        text-decoration: none;
+      }
+      .sub-menu li:last-child {
+        border-bottom: 0;
+      }
+      .sub-menu li:hover {
+        background: black;
+      }
+      .menu>li:hover .sub-menu li {
+        transform: scale(1);
+      }
+      .menu>li:hover .sub-menu {
+        transform: scale(1);
+      }
+    </style>
+
+
+
+</head>
+<body style="background-color: black;">
+
+    <div class="main" style="border:  3px solid black; width: 1335px; height: 1085px;">
+
+
+        <div class="div1" style="border: 1px solid black; width: 1335px; height: 30px;">
+        
+        
+          <div style="border: 1px solid black; width: 1335px; height: 30px;  background-color: black; margin: -15px;">
+            <nav>
+              <ul class="menu">
+                <li><a href="#" style="color: gold;">home</a></li>
+                <li><a href="#" style="color: gold;">movies</a>
+                  <ul class="sub-menu" style="text-decoration-style: none; list-style: none;">
+                      <li><a href="https://themoviesflix.cc/" target="_blank"   style="color: greenyellow;">Marvel Movies</a></li>
+                      <li><a href="https://themoviesflix.cc/" target="_blank"   style="color: greenyellow;"> Warner Bros Movies</a></li>
+                      <li><a href="https://themoviesflix.cc/category/dual-audio/" target="_blank"   style="color: greenyellow;"> Hollywood Movies</a></li>
+                      <li><a href="https://themoviesflix.cc/category/bollywood/" target="_blank"  style="color: greenyellow;" > Bollywood Movies</a></li>
+                        </ul>
+                   </li>
+                   <li><a href="#" style="color: gold;">Series</a>
+                    <ul class="sub-menu" style="list-style: none;">
+                   <li><a href="https://themoviesflix.cc/category/netflix/" target="_blank"  style="color: greenyellow;" > Netflix Series</a></li>
+                   <li><a href="https://themoviesflix.cc/category/amazon-prime-video/" target="_blank"   style="color: greenyellow;"> Amazon Prime vedios</a></li>
+                   <li><a href="https://themoviesflix.cc/category/hindi-dubbed/" target="_blank"   style="color: greenyellow;"> Hindi Series</a></li>
+                   <li><a href="https://themoviesflix.cc/category/english/" target="_blank"  style="color: greenyellow;" > English Series</a></li>
+                    </ul>
+                 </li>
+                 <li><a href="#" style="color: gold;"> Websites Link</a>
+                  <ul class="sub-menu" style="list-style: none;">
+                      <li><a href="https://www.netflix.com/in/" target="_blank"  style="color: greenyellow;" > Netflix</a></li>
+                      <li><a href="https://www.primevideo.com/?ref_=dvm_pds_amz_in_as_s_g_72|m_fQQR2NKbc_c386559716838" target="_blank"  style="color: greenyellow;" > Amazon Prime vedio</a></li>
+                      <li><a href="https://www.zee5.com/myaccount/subscription?utm_source=GoogleSearch&utm_medium=Mark_CPA&utm_campaign=IN-SVOD_Essence-Hi-Brand-OC-Brand_none-zee5_premium-search-pure_brand-both-website-ind-em-eq-svod_Essence%20[1:1]_Desktop&utm_term=zee5&utm_content=Brand-Desktop-ZEE5-Only&gclid=Cj0KCQjw4ImEBhDFARIsAGOTMj8nXMIXYYRMdH1iAxNPAoouT_uUeZQ8qNbIr2n5qfDzv_v9U7crMlMaAt8bEALw_wcB&gclsrc=aw.ds" target="_blank"  style="color: greenyellow;" > Zee5</a></li>
+                      <li><a href="https://www.hotstar.com/in" target="_blank"  style="color: greenyellow;" > Disnep+Hotstar</a></li>
+                      <li><a href="https://www.marvel.com/movies" target="_blank"  style="color: greenyellow;" > Marvel Movies</a></li>
+                      <li><a href="https://www.warnerbros.com/movies" target="_blank" style="color: greenyellow;" > Warner Bros Movies</a></li>
+                  </ul>
+                  </li>
+                  <li><a href="about.html" target="_blank"  style="color: gold;">about us</a></li>
+                  <li class="class1"><a href="login form.html" target="_blank" style="color: gold;">login</a></li>
+                  <li class="class2" ><a href="new user registration form.html" target="_blank" style="color: gold;">new user</a></li>
+              </ul>
+            </nav>
+          </div>
+        
+        
+        
+        </div>
+
+        <div class="div2" style="border: 1px solid black; width: 1335px; height: 40px;">
+            <div style=" background-color: darkolivegreen; color: limegreen; height: 40px; font-size: 25px;">  <marquee  scrollamount="12" style="margin: 5px;"> MOVIES BOOKING MANAGEMENT SYSTEM</marquee></div>
+        </div>
+
+          <div class="div3" style="border: 1px solid black; width: 245px; height: 340px; margin:  0px 0px; background-color: lime; color: blue;">
+           Slect the Date and Time <input type="date" id="birthday" name="birthday" style="background-color: darkgoldenrod;"> <input type="time" id="appt" name="appt"  style="background-color: darkgoldenrod;"> <hr> <br>
+           <marquee direction="up" scrollamount="2" style="color:red;"> 
+                    1.   Get 25% discount on " ALL IN COMING NEW MOVIES AND SERIES"<br> <br> 
+                    2.   Get 35% cash back for registration of " BLACK WIDOW"  <br>  <br> 
+                    3.   Get 45% cash back on " SHANG-CHI AND THE LEGEND OF THE TEN RINGS" <br>  <br>
+                    4.   Get 50% discount on " THE FALCON AND THE WINTER SOLDIER" <br> 
+               
+           </marquee>
+           
+        </div>
+
+        <div class="div4" style="border: 1px solid black; width: 1090px; height: 340px; margin:  -342px 246px; ">
+          
+          
+<div class="slideshow-container" style="border: 3px solid black;">
+
+  <div class="mySlides fade">
+   
+    <img src="Screenshot (258).png" style="width:100%">
+    <div class="text" style="color: black;"> <b>Caption One <a href="https://www.marvel.com/movies/shang-chi-and-the-legend-of-the-ten-rings" style="color: deeppink; margin: 0px 30%;">click here to go the trailer</a></b></div>
+  </div>
+  
+  <div class="mySlides fade">
+    
+    <img src="Screenshot (213).png" style="width:100%;">
+    <div class="text" style="color: black"> <b>Caption Two <a href="https://www.marvel.com/movies/doctor-strange" style="color: deeppink; margin: 0px 30%;">click here to go the trailer</a></b></div>
+  </div>
+  
+  <div class="mySlides fade">
+    
+    <img src="Screenshot (220).png" style="width:100%">
+    <div class="text" style="color: black"> <b>Caption Three <a href="https://www.marvel.com/movies/thor-the-dark-world" style="color: deeppink; margin: 0px 30%;">click here to go the trailer</a></b></div>
+  </div>
+  
+  <div class="mySlides fade">
+     
+      <img src="Screenshot (221).png" style="width:100%">
+      <div class="text" style="color: black"> <b>Caption Four <a href="https://www.marvel.com/movies/captain-america-the-winter-soldier" style="color: deeppink; margin: 0px 30%;">click here to go the trailer</a></b></div>
+    </div>
+  
+    <div class="mySlides fade">
+      
+      <img src="Screenshot (222).png" style="width:100%">
+      <div class="text" style="color: black;"><b>Caption Five <a href="https://www.marvel.com/movies/iron-man-3" style="color: deeppink; margin: 0px 30%;">click here to go the trailer</a></b></div>
+    </div>
+  
+    <div class="mySlides fade">
+    
+      <img src="Screenshot (223).png" style="width:100%">
+      <div class="text" style="color: black;"> <b>Caption Six <a href="https://www.marvel.com/movies/captain-marvel" style="color: deeppink; margin: 0px 30%;">click here to go the trailer</a></b></div>
+    </div>
+  
+    <div class="mySlides fade">
+    
+      <img src="Screenshot (224).png" style="width:100%">
+      <div class="text" style="color: black"> <b>Caption Seven <a href="https://www.marvel.com/movies/ant-man-and-the-wasp" style="color: deeppink; margin: 0px 30%;">click here to go the trailer</a></b></div>
+    </div>
+  
+    <div class="mySlides fade">
+     
+      <img src="Screenshot (225).png" style="width:100%">
+      <div class="text" style="color: black"> <b>Caption Eight <a href="https://www.marvel.com/movies/spider-man-homecoming" style="color: deeppink; margin: 0px 30%;">click here to go the trailer</a></b></div>
+    </div>
+  
+    <div class="mySlides fade">
+    
+      <img src="Screenshot (226).png" style="width:100%">
+      <div class="text" style="color: black"> <b>Caption Nine <a href="https://www.marvel.com/movies/the-avengers" style="color: deeppink; margin: 0px 30%;">click here to go the trailer</a></b></div>
+    </div>
+    <div class="mySlides fade">
+     
+      <img src="Screenshot (228).png" style="width:100%">
+      <div class="text" style="color: black;"> <b>Caption Ten <a href="https://www.marvel.com/movies/black-widow" style="color: deeppink; margin: 0px 30%;">click here to go the trailer</a></b></div>
+    </div>
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+  
+  <script>
+  var slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+  }
+  </script>
+
+          
+        </div>
+
+         <div class="div5" style="border: 1px solid black; margin: 340px 0px; width: 1335px; height: 335px;">
+            <a href="https://themoviesflix.cc/download-lucifer-season-5-hindi-480p-720p/"> <img src="Screenshot (210).png"> </a>
+            <a href=" https://themoviesflix.cc/download-the-falcon-and-the-winter-soldier-season-1-hindi-english-480p-720p-1080p/"> <img src="Screenshot (203).png"> </a>
+            <a href="https://themoviesflix.cc/download-arrow-season-1-8-english-720p/"> <img src="Screenshot (211).png"> </a>
+            <a href="https://themoviesflix.cc/download-supergirl-season-1-6-english-720p/"> <img src="Screenshot (227).png"> </a>
+            <a href="https://themoviesflix.cc/download-marvel-iron-fist-season-1-2-english-720p/"> <img src="Screenshot (197).png" style="width: 220px; height: 333px;"> </a>
+            <a href="https://themoviesflix.cc/download-black-lightning-season-1-4-english-with-subtitles-720p/"> <img src="Screenshot (199).png" style="width: 214px; height: 331px;"> </a>
+           </div> 
+        <div class="div6" style="border: 1px solid black; margin: -340px 0px; width: 1335px; height: 335px;" >
+            <a href="https://themoviesflix.cc/?s=thor">  <img src="Screenshot (208).png"> </a>
+            <a href="https://themoviesflix.cc/download-black-panther-2018-hindi-english-480p-720p-1080p/">  <img src="Screenshot (207).png"> </a>
+            <a href="https://themoviesflix.cc/?s=iron+man">  <img src="Screenshot (206).png"> </a>
+            <a href="https://themoviesflix.cc/download-the-avengers-2012-hindi-480p-720p-1080p/">  <img src="Screenshot (204).png"> </a>
+            <a href="https://themoviesflix.cc/download-zack-snyders-justice-league-2021-english-with-subtitles-480p-720p-1080p/">  <img src="Screenshot (202).png"> </a>
+            <a href="https://themoviesflix.cc/?s=Guardians+of+the+Galaxy">  <img src="Screenshot (209).png" style="width: 215px; height: 333px;"> </a>
+        </div>
+            </div>
+    
+</body>
+</html>
